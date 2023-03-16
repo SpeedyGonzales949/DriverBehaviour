@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/ic_add"
+        android:title="@string/add_note"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/connect_polar"
+        android:icon="@drawable/ic_bluetooth_connected"
+        android:title="@string/connect"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/display_data"
+        android:icon="@drawable/ic_baseline_data_exploration"
+        android:title="@string/show_data"
+        app:showAsAction="ifRoom"/>
+</menu>
