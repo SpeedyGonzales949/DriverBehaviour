@@ -1,14 +1,11 @@
 package com.example.roomtutorial.hrv
 
 import com.example.roomtutorial.Ppi
-import org.apache.commons.math3.transform.DftNormalization
-import org.apache.commons.math3.transform.FastFourierTransformer
-import org.apache.commons.math3.transform.TransformType
 import kotlin.math.abs
 import kotlin.math.pow
 import kotlin.math.sqrt
 
-class Utils {
+class TimeDomain {
     companion object {
         val TAG = "UTILITY"
     }

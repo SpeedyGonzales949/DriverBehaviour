@@ -56,9 +56,9 @@ class FrequencyDomain {
                 )
 
 
-        Log.d(Utils.TAG,"relativePowerHFnu=${relativePowerHFnu}")
-        Log.d(Utils.TAG,"relativePowerLFnu=${relativePowerLFnu}")
-        Log.d(Utils.TAG,"ratioLFHF=${ratioLFHF}")
+        Log.d(TimeDomain.TAG,"relativePowerHFnu=${relativePowerHFnu}")
+        Log.d(TimeDomain.TAG,"relativePowerLFnu=${relativePowerLFnu}")
+        Log.d(TimeDomain.TAG,"ratioLFHF=${ratioLFHF}")
 
         return dataPoints
     }

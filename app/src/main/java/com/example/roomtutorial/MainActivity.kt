@@ -10,7 +10,6 @@ import android.os.Bundle
 import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
-import android.view.View
 import android.widget.Toast
 import androidx.activity.result.ActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
@@ -22,9 +21,7 @@ import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
-import com.example.roomtutorial.hrv.FrequencyBand
 import com.example.roomtutorial.hrv.HRV
-import com.example.roomtutorial.hrv.Utils
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import kotlin.math.pow
 
