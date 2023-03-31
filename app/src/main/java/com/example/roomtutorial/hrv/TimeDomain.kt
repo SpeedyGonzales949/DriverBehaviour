@@ -69,6 +69,8 @@ class TimeDomain {
                 ct++
             }
         }
+        if(ct==0)
+            return 0.0
         return ct.toDouble() / (intervals.size - 1) * 100
     }
 
@@ -84,7 +86,7 @@ class TimeDomain {
         val sum = differences.stream().mapToInt { elem: Int -> elem * elem }.sum()
         val size = differences.size
 
-
+        print(sum)
         return sqrt(sum.toDouble() / size)
     }
 
